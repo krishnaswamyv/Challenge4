@@ -14,4 +14,4 @@ Accounts used in the Break game repository:
 
 1. ExtraWriteAccount: It is used along with ProgramDataAccount as Key for creating a Transaction Instruction.
 2. ProgramDataAccount: There can be multiple ProgramDataAccounts (used as Game Accounts) created at a given point in time (up to 5 based on the default configuration) to facilitate parallel transactions.
-3. FeePayerAccount: There can be multiple FeePayerAccounts created for paying the fees for the respective transactions created in a batch (up to 5 based on the default configuration).
+3. FeePayerAccount: There can be multiple FeePayerAccounts created for paying the fees for the respective transactions created in a batch (up to 5 in parallel based on the default configuration).
